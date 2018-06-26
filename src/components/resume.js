@@ -61,17 +61,17 @@ class Resume extends Component{
                   <h2>Skills</h2>
                         <Skill
                         skill="Java"
-                        progress={100}
+                        progress={60}
                           />
 
                           <Skill
                           skill="HTML/CSS"
-                          progress={78}
+                          progress={70}
                             />
 
                           <Skill
                            skill="CSS-GRID"
-                           progress={92}
+                           progress={75}
                             />
 
 
@@ -85,6 +85,11 @@ class Resume extends Component{
                            skill="Python"
                            progress={50}
                             />
+
+                            <Skill
+                             skill="JSP"
+                             progress={50}
+                             />
 
 
 
