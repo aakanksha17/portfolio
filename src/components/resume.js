@@ -19,16 +19,16 @@ class Resume extends Component{
           <h2>Aakanksha Singh</h2>
           <h4>Developer | Bibliophile</h4>
           <hr/>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+          <p>To work as a fresher and enhance my technical & interpersonal skills and serve the organization</p>
           <hr/>
           <h5>Address</h5>
-            <p>Patidar Complex, C-wing, Flat no- 606, Kannawar Nagar- 2, Vikhroli(East)</p>
+            <p>Patidar Complex, Kannawar Nagar- 2, Vikhroli(East)</p>
             <h5>Phone</h5>
             <p>+91-8169148550</p>
             <h5>Email</h5>
             <p>aakankshaipsingh@gmail.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>aakankshaip.netlify.com</p>
             <hr/>
 
        </Cell>
