@@ -1,0 +1,350 @@
+.header-color{
+  text-shadow: 2px 2px 4px #000000;
+
+  background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.landing-grid{    background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: fixed;
+height:100%;
+width:100%;
+top:0px;
+left:0px;
+text-align: center;
+
+}
+.projects-grid{
+  display:flex;
+}
+.avatar-img{
+  height:250px;
+  margin-top:5em;
+  border-radius: 100%;
+}
+.resume-avatar{
+    border-radius: 100%;
+
+}
+.contact-avatar{
+
+  border-radius: 10%;
+  box-shadow:3px 3px 5px 3px #ccc;
+  animation-name: contact-avatar-fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity:0;
+  transition: opacity 1s ease-in;
+  animation-delay: 800ms;
+}
+
+@keyframes contact-avatar-fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+
+
+
+
+.banner-text{
+  background-color:black;
+  opacity:.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
+  color:white;
+}
+.banner-text hr{
+
+border-top: 5px dotted white;
+width:50%;
+margin:auto;
+}
+.banner-text p{
+  color:white;
+  text-align:center;
+  font-size: 20px;
+  padding:1em;
+}
+
+.social-links{
+display: flex;
+justify-content: space-between;
+width:50%;
+margin:auto;
+}
+.social-links i{
+  color:white;
+  font-size:5em;
+  padding: 8px;
+}
+
+
+.contact-body{
+margin:auto;
+
+width:100%;
+height:100%;
+position: relative;
+padding-top: 2em;
+justify-content: center;
+}
+/*Resume css start*/
+.resume-right-col{
+  background:#27122F;
+  color:white;
+
+  animation-name: slideinLeft;
+  animation-duration: 700ms;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  transition: transform 300ms ease-in;
+  transform: translateX(80%);
+  border-radius: 20px;
+
+}
+
+
+@keyframes slideinLeft {
+  0%{transform: translateX(80%);}
+  100%{transform: translateX(0);}
+
+}
+
+
+
+
+
+
+.detail-left h4{
+  margin-top: 0px;
+}
+
+.resume-right-col hr{
+
+  border-top: 3px solid #e22947;
+
+  width:50%;
+  text-align: left;
+}
+.barpercent{
+  display: flex;
+}
+
+@media screen and (max-width: 842px){
+
+.resume-left-col{
+width:100%;
+  }
+
+
+}
+
+.resume-left-col{
+
+  text-align:center;
+
+  animation-name: slideinRight;
+    animation-duration: 500ms;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    transition: transform 300ms ease-in-out;
+    transform: translateX(-50%);
+
+opacity: 0;
+}
+
+@keyframes slideinRight{
+  0%{transform: translateX(-50%);
+opacity: 0;
+  }
+  100%{transform: translateX(0);
+  opacity: 1;}
+}
+
+
+
+.resume-left-col h2{
+padding-top: 30px;
+
+}
+.resume-left-col h4{
+color:grey;
+
+}
+.resume-left-col hr{
+border-top:  3px solid #833fb2;
+margin:auto;
+
+  width :50%;
+}
+.resume-left-col p{
+  padding-top: 1em;
+  padding-bottom: 1em;
+text-align: left
+}
+.resume-left-col h5{
+text-align: left
+}
+
+
+
+
+/*Resume css end*/
+
+.contact-grid{
+text-align: center;
+width:80%;
+background:white;
+justify-content: center;
+color:black;
+height:auto;
+margin-bottom: 20px;
+
+
+}
+.contact-grid h2{
+font-family:'Anton',sans-serif;
+animation-name: contact-avatar-fade;
+animation-duration: 600ms;
+animation-fill-mode: forwards;
+animation-delay: 1s;
+opacity: 0;
+
+
+}
+.contact-grid p{
+
+  font-family: 'Oxygen',sans-serif;
+  font-weight: bold;
+}
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width:50%;
+  margin:auto;
+}
+.contact-list{
+width:100%;
+text-align:center;
+justify-content: center;
+
+}
+.contact-list i{
+  font-size: 66px;
+  padding-right: 3rem;
+}
+#a{
+  font-size: 25px;
+  font-family: Anton,sans-serif;
+
+}
+
+@media screen and (max-width: 1300px){
+  .contact-list i{
+    font-size: 33px;
+    padding-right: 3rem;
+  }
+  #a{
+    font-size: 15px;
+    text-align: center;
+
+  }
+
+
+}
+
+@media screen and (max-width: 600px){
+  .banner-text{
+    background-color:black;
+    opacity:.8;
+    width: 75%;
+    margin:auto;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+  .banner-text hr{
+
+  border-top: 1px dotted white;
+  width:75%;
+  margin:auto;
+  }
+
+  .social-links{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+  margin:auto;
+  }
+  .social-links i{
+    color:white;
+    font-size:2em;
+    padding: 8px;
+  }
+  .banner-text h1{
+    font-size: 23px;
+    font-weight: bold;
+    color:white;
+  }
+  @media screen and (max-width: 300px){
+
+    .social-links{
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+    margin:auto;
+    padding-right: 20px;
+    }
+    .social-links i{
+      color:white;
+      font-size:20px;
+      padding: 8px;
+    }
+  }
+
+}
+
+
+
+/*Page transition animation*/
+.example-appear {
+opacity: 0;
+transform: translate3d(0, 10%, 0);
+
+}
+
+
+
+
+.example-appear.example-appear-active{
+opacity: 1;
+  transform: translate3d(0, 0, 0);
+ transition: all 600ms;
+
+}
+
+.example-leave {
+transform: translate3d(0, 0, 0);
+}
+
+.example-leave.example-leave-active {
+
+  transform: translate3d(100%, 0, 0);
+   transition: all 600ms;
+}
