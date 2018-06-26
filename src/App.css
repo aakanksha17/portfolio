@@ -15,7 +15,7 @@ width:100%;
 top:0px;
 left:0px;
 text-align: center;
-animation-name: slideinRight;
+animation-name: slideup;
 animation-duration: 1s;
 animation-fill-mode: forwards;
 opacity:0;
@@ -24,6 +24,17 @@ animation-delay: 200ms;
 
 
 }
+
+@keyframes slideup{
+  0%{transform: translateY(-50%);
+opacity: 0;
+  }
+  100%{transform: translateY(0);
+  opacity: 1;}
+}
+
+
+
 .projects-grid{
   display:flex;
 }
